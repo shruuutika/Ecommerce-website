@@ -32,3 +32,9 @@ a:hover{
     color: blue;
     text-decoration: dashed;
 }
+
+@media screen and (max-width:768px) {
+    .middle a{
+        display: none;
+    }
+}
